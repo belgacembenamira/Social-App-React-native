@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Nom de votre nouvelle application",
+    "slug": "slug-de-votre-nouvelle-application",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/nouvelle-icone.png", // Remplacez par le chemin de votre nouvelle icône
+    "splash": {
+      "image": "./assets/nouveau-splash.png", // Remplacez par le chemin de votre nouveau splash screen
+      "resizeMode": "cover",
+      "backgroundColor": "#fff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "io.github.belgacembenamira.nom-de-votre-nouvelle-app",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "io.github.belgacembenamira.nom-de-votre-nouvelle-app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/nouvelle-icone.png",
+        "backgroundColor": "#fff"
+      },
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+        "CAMERA",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE"
+      ]
+    },
+    "github": {
+      "url": "https://github.com/belgacembenamira , https://github.com/AhmedElwadiBenAmmar"
+    }
+  }
+}
